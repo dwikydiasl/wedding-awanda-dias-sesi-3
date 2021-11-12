@@ -17,7 +17,11 @@ audio {
 	font-family: wedding;
 	src: url(../assets/Playball-Regular.ttf);
 }
-
+.box-card h1{
+	font-family: wedding;
+	text-align: center;
+	font-size: 2.2rem;
+}
 #loading button {
 	font-size: 16px;
 	color: #fff;
