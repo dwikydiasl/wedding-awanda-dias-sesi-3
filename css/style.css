@@ -85,11 +85,7 @@ audio {
 		background-image: url(../assets/bg-load.png);
 	}
 }
-.session{
-	border: 1px solid;
-    width: 175px;
-    margin: 0 auto;
-}
+
 #myProgress {
 	width: 20rem;
 	background-color: #fff;
@@ -1045,31 +1041,24 @@ button.btn.btn-modal:hover {
 		/*height: 1052px;*/
 	}
 }
-html body .freebirdFormviewerViewFormCard  .freebirdFormviewerViewNoPadding {
-	display: none !important;
-}
-body .freebirdFormviewerViewFooterFooterBarLeft {
-	display: none  !important;
-}
-form#mG61Hd .freebirdFormviewerViewFooterFooterBarLeft{
-display: none  !important;
-}
 .fomr-confirm{
 	max-width: 500px;
-    margin: 0 auto;
-    padding: 50px;
-    background: #daab7f;
-    border-radius: 5px;
-    box-shadow: 0 4px 30px rgb(0 0 0 / 50%)
+	margin: 0 auto;
+	padding: 50px;
+	background: #daab7f;
+	border-radius: 5px;
+	box-shadow: 0 4px 30px rgb(0 0 0 / 50%)
 }
 .fomr-confirm button{
-	    background: #fff;
-    box-shadow: 2px 2px 4px rgb(0 0 0 / 40%);
-    outline: 0;
-    border: 0;
-    color: #111;
-    width: 100px;
-    padding: 10px;
+	background: #fff;
+	box-shadow: 2px 2px 4px rgb(0 0 0 / 40%);
+	outline: 0;
+	border: 0;
+	color: #111;
+	width: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	text-transform: uppercase;
 }
 .form-row textarea{
 	width: 100%;
