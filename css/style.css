@@ -85,7 +85,11 @@ audio {
 		background-image: url(../assets/bg-load.png);
 	}
 }
-
+.session{
+	border: 1px solid;
+    width: 175px;
+    margin: 0 auto;
+}
 #myProgress {
 	width: 20rem;
 	background-color: #fff;
