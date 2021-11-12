@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>The Wedding</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="assets/ring.png">
+	<!-- Bootstrap CSS -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">  
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<!-- Font Style -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&family=Damion:500,600,700,800&family=Sacramento&family=Raleway:wght@300;400&family=Kaushan+Script&display=swap&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+	<div id="loading" class="loading">
+		<div class="img-load">
+			<!-- <img src="assets/TRH01012.jpg" class="img-loading"> -->
+		</div>
+		
+		<!-- <div id="myProgress">
+			<div id="myBar"></div>
+		</div> -->
+		<audio src="assets/videoplayback.mp4"></audio>
+		<div class="text-loading">
+			<h1>Awanda & Dias</h1>
+			<p>
+				Kepada Bapak/Ibu/Saudara/i
+			</p>
+			<p>
+				Kami Mengundang Anda Untuk Hadir Di Acara Pernikahan Kami.
+			</p>
+			<!-- <p>
+				<span>Sesi 1</span> 10.00 - 11.00
+			</p> -->
+		</div>
+		<button id="button"  onclick="hidden_page()">
+			<i class="fas fa-book-open"></i> Open Invitation
+		</button>
+	</div>
+	<div id="landing-page" class="landing_page">		
+		<div id="header" class="header">
+			<div class="container-fluid">
+				<nav>
+					<div class="d-flex bd-highlight">
+						<div class="mr-auto bd-highlight logo">
+							<h1>A&D</h1>
+						</div>
+						<div class="bd-highlight">
+							<div class="menu">
+								<ul>
+									<!-- <li>
+										<a href="#">
+											<i class="fas fa-hotel"></i> Home
+										</a>
+									</li>
+									<li>
+										<a href="#about">
+											<i class="fas fa-id-badge"></i> About
+										</a> 
+									</li> -->
+									<li>
+										<a href="#schedule">
+											<i class="fas fa-calendar-alt"></i> Schedule
+										</a>
+									</li>
+									<li> 
+										<a href="#gallery">
+											<i class="fas fa-camera-retro"></i> Gallery
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="humberger-menu">
+								<div class="button_container" id="toggle">
+									<span class="top"></span>
+									<span class="middle"></span>
+									<span class="bottom"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="overlay_menu" id="overlay_menu">
+			<nav class="overlay-menu">
+				<ul>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<section id="home" class="home">
+			<!-- <div class="bg-img"> <img src="assets/TRH00531.jpg"></div> -->
+			<div id="carouselExampleSlidesOnly" class="bg-img  carousel slide carousel-fade" data-touch="true" data-ride="carousel">
+				<div class="carousel-inner ">
+					<div class="carousel-item active">
+						<img src="assets/photo.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="assets/IMG-20201110-WA0024.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="page-home">					
+				</div>
+			</div>
+			<div class="scroll-downs">
+				<div class="mousey">
+					<div class="scroller"></div>
+				</div>
+				<a href="#about">Scroll down</a>
+			</div>
+		</section>
+
+		<section id="about" class="about">
+			<div class="container-fluid">
+				<div class="title-section mb-5">
+					<h1 align="center">Our love story</h1>
+					<div class="line-section"></div>
+				</div>
+			</div>
+			<br>
+			<div class="container ">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="mb-3" align="center" data-aos="fade-up">
+							<img src="assets/TRH01214-min.jpg" class="photo">
+							<h5 class="name pink">Awanda Prisma Winindya Pangastuti</h5>
+							<h5 class="name2">Putri Bapak Wisono & Ibu Ina Handayani </h5>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="mb-3" align="center" data-aos="fade-down" data-aos-delay="500">
+							<img src="assets/TRH01303-min.jpg" class="photo">
+							<h5 class="name pink">Dwiky Dias Laksmana</h5>
+							<h5 class="name2">Putra Bapak Edy Agus Mardiono & Ibu Romala</h5>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="bg-img-about">
+				<div class="text-about">
+					<h2>
+						-Surat Ar-Rum : 21-
+					</h2>
+					<p>
+						"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir."
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="schedule">
+			<div class="container-fluid">
+				<div class="title-section">
+					<h1 align="center">Schedule</h1>
+					<div class="line-section"></div>
+				</div>
+			</div>
+
+			<div class="container page-schedule">
+				<div class="row">
+					<!-- <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+						<div class="box-schedule " align="center"  data-aos="zoom-in">
+							<img src="assets/ring.png" class="img-schedule">
+							<h5 class="mb-3 mt-4 title-schedule">Ceremony</h5>
+							<p class="desc-schedule"> 
+								19 September 2021<br>
+								08.00 AM
+							</p>
+						</div>
+					</div> -->
+					<div class="col-12 col-sm-6 ">
+						<div class="box-schedule" align="center" data-aos="zoom-in"  data-aos-delay="500">
+							<img src="assets/calender.png" class="img-schedule">
+							<h5 class="mb-3 mt-4 title-schedule">Reception</h5>
+							<p class="desc-schedule">
+								<span class="date">20</span><span class="month"> Nov</span> <span  class="year"> 2021</span> <br>
+								10.00 AM - 13.00 AM
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 ">
+						<div class="box-schedule " align="center" data-aos="zoom-in" data-aos-delay="1000">
+							<img src="assets/map.png" class="img-schedule">
+							<h5 class="mb-3 mt-4 title-schedule">Location</h5>
+							<p class="desc-schedule">
+								Graha Wana Java Perhutani Madiun<br>
+								Jl. Rimba Madya, No. 11 Kartoharjo Kota Madiun
+								<!-- <address>
+									<a href="https://goo.gl/maps/UQ2ySW5Myov1KHdy7" target="blank">
+										View Maps
+									</a>
+								</address> -->
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<iframe style="width: 100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.222622579751!2d111.52355933643366!3d-7.623229898931865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bef6ae167a81%3A0x15f26f0f905342b7!2sGrha%20Wana%20Java%20Pusdikbang%20SDM%20Perhutani!5e0!3m2!1sid!2sid!4v1635817212422!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+
+			<div class="countdown">
+				<div class="container">
+					<h2>
+						Time to the Event
+					</h2>
+					<!-- <h3>
+						We’re Getting Married!
+					</h3> -->
+					<div class="">
+						<div id="countdown">
+							<ul>
+								<li><span id="days"></span>days</li>
+								<li><span id="hours"></span>Hours</li>
+								<li><span id="minutes"></span>Minutes</li>
+								<li><span id="seconds"></span>Seconds</li>
+							</ul>
+						</div>
+						<div class="message">
+							<div id="content">
+								<span class="emoji">🥳</span>
+								<span class="emoji">🎉</span>
+								<span class="emoji">🎂</span>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section id="gallery">
+			<div class="container-fluid">
+				<div class="title-section">
+					<h1 align="center">Wedding Gallery</h1>
+					<div class="line-section"></div>
+				</div>
+			</div>
+
+			<div class="container  mt-5">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 6</div>
+					<img src="assets/IMG-20201110-WA0024.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 6</div>
+					<img src="assets/IMG-20201110-WA0022.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 6</div>
+					<img src="assets/IMG-20201112-WA0008.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 6</div>
+					<img src="assets/IMG-20201110-WA0017.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 6</div>
+					<img src="assets/IMG-20201110-WA0022.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 6</div>
+					<img src="assets/IMG-20201110-WA0024.jpg" style="width:100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+				<div class="row">
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201110-WA0024.jpg" style="width:100%" onclick="currentSlide(1)" >
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201110-WA0022.jpg" style="width:100%" onclick="currentSlide(2)" >
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201112-WA0008.jpg" style="width:100%" onclick="currentSlide(3)" >
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201110-WA0017.jpg" style="width:100%" onclick="currentSlide(4)">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201110-WA0022.jpg" style="width:100%" onclick="currentSlide(5)" >
+					</div>    
+					<div class="column">
+						<img class="demo cursor" src="assets/IMG-20201110-WA0024.jpg" style="width:100%" onclick="currentSlide(6)" >
+					</div>
+				</div>
+
+				
+			</div>
+		</section >
+
+		
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<h1>Kirim Kado</h1>
+						<h5>
+							Jl Pojok Dua, Munggut, Wungu, Madiun, Jawa Timur<br>
+							08234324<br>
+							Penerima: Awanda
+						</h5>
+						<p>Silahkan copy Alamat Mempelai dibawah ini:</p>
+						<input type="text" value="Jl Pojok Dua, Munggut, Wungu, Madiun, Jawa Timur" id="myInput">
+						<button onclick="coptText()">Copy text</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="card-payment">
+							<img src="assets/bca.png">
+							<h5>093802382</h5>
+							<h5>
+								A/N 
+							</h5>
+						</div>
+						<div class="card-payment">
+							<img src="assets/mandiri.png">
+							<h5>093802382</h5>
+							<h5>
+								A/N 
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="protocol">
+			<div class="container">
+				<h4>Jangan ragu untuk datang, kami sudah berkoordinasi dengan semua pihak terkait pencegahan penularan COVID-19. Acara kami akan mengikuti segala prosedur protokol kesehatan untuk mencegah penularan COVID-19. So, don't be panic, we look forward to seeing you there!</h4>
+				<ul>
+					<li>
+						<div class="img-protocol">
+							<img src="assets/wdp-ikon_covid_03.png">
+						</div>
+						<div class="desc-protocol">
+							<p>
+								Tamu undangan wajib <br>menggunakan masker.
+							</p>
+						</div>
+						
+					</li>
+					<li>
+						<div class="img-protocol">
+							<img src="assets/wdp-ikon_covid_01.png">
+						</div>
+						<div class="desc-protocol">
+							<p>
+								Suhu tubuh normal <br>(dibawah 37,5°C).
+							</p>
+						</div>
+						
+					</li>
+					<li>
+						<div class="img-protocol">
+							<img src="assets/wdp-ikon_covid_04.png">
+						</div>
+						<div class="desc-protocol">
+							<p>
+								Jaga jarak antar orang  <br>minimal sekitar 1 meter.
+							</p>
+						</div>
+						
+					</li>
+					<li>
+						<div class="img-protocol">
+							<img src="assets/wdp-ikon_covid_02.png">
+						</div>
+						<div class="desc-protocol">
+							<p>
+								Cuci tangan atau menggunakan hand sanitizer.
+							</p>
+						</div>
+						
+					</li>
+				</ul>
+				<h4>
+					Bagi para tamu undangan diharapkan mengikuti protokol pencegahan COVID-19.
+				</h4>
+			</div>
+		</section>	
+
+		<section id="confirmation">
+			<h1>
+				Reservasi dan Ucapan 
+			</h1>
+			<div class="container">
+					<div class="fomr-confirm">
+						<script type="text/javascript">var submitted=false;</script>   
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://diaslaksmana.com/wedding-awanda-dias/';}"  width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
+						<form  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8SFm2buO6rj8TstQTbboKMSl8VDs9WxMLOGaGoPCl1gosjA/formResponse"  method="post" target="hidden_iframe"
+						onsubmit="submitted=true;">
+						<div class="form-row">
+							<label class="title-form">Nama *</label>
+							<input name="entry.1647504127" type="text" required="" />
+						</div>
+
+						<div class="form-row">
+							<label class="title-form">Berikan Ucapan dan Doa</label>
+							<textarea name="entry.309116259" type="text" required="" rows="3"  /></textarea>
+						</div>
+
+						<div class="form-row">
+							<label class="title-form">Konfirmasi Kehadiran *</label>
+							<label for="Hadir" class="radio-btn">															 
+								<input type="radio" name="entry.650955443" id="Hadir"  value="Hadir" required="">
+								<span>Hadir</span>		
+							</label><br>
+							<label for="Tidak Hadir" class="radio-btn">																 
+								<input type="radio" name="entry.650955443" id="Tidak Hadir"  value="Tidak Hadir" required="">
+								<span>Tidak Hadir</span>	
+							</label>
+						</div>
+
+
+						<br>
+						<div class="form-row">
+							<label class="title-form">Jumlah yang akan hadir</label>
+							<span class="" style="text-align: left;    font-size: 12px;">Isi jika menghadiri acara</span>
+							<input name="entry.88397802" type="number" min="0"   />
+						</div>
+						<div style="text-align: left; color: #fff">* Wajib diisi</div>
+						<button type="submit" value="Send" /> Kirim</button> 
+
+					</form>
+				</div>
+
+				</section>
+
+				<section id="information">
+					<div class="container">
+						<div class="box-card">
+							<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan terima kasih.
+
+							</p>
+					<!-- <div class="body-card">
+						<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal">
+							<i class="fas fa-home"></i> Kirim Kado
+						</button>
+
+						<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal2">
+							<i class="fas fa-money-bill-wave"></i> Kirim Angpao
+						</button>
+					</div> -->
+				</div>
+			</div>
+		</section>
+
+
+		<section id="nav_mobile">
+			<div class="container">
+				<div class="nav_menu">
+					<ul>
+						<li>
+							<a href="#">Home <span><i class="fas fa-home"></i></span></a>
+						</li>
+						<li>
+							<a href="#about">About<span><i class="fas fa-user-friends"></i></span></a>
+						</li>
+						<li>
+							<a href="#schedule">Schedule <span><i class="fas fa-calendar-alt"></i></span></a>
+						</li>
+						<li>
+							<a href="#gallery">Gallery <span><i class="fas fa-camera-retro"></i></span></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</section>	
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<div class="label"><i class="fas fa-arrow-up"></i></div>
+		</button>
+
+		<div class="copyright" align="center">
+			<p>
+				Copyright ©  <script type="text/javascript">
+					document.write(new Date().getFullYear());
+				</script>
+				<span> The Weeding A&D </span> . All rights reserved 
+			</p>
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init();
+	$('.carousel').carousel({
+		pause: "false"
+	});
+</script>
+</body>
+</html>
